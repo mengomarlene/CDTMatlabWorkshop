@@ -15,7 +15,7 @@ for fileNo = 1:length(files)
     for idx = 1:length(Load)
         Force(idx)=str2double(Load{idx});
     end
-    idxBreak = getIdxBreak(Extension,Force,true);
+    idxBreak = getIdxBreak(Extension,Force,true,color(fileNo,:));
     extBreak(fileNo) = Extension(idxBreak);
     forceBreak(fileNo) = Force(idxBreak);
 end
