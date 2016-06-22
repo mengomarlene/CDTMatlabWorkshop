@@ -1,6 +1,6 @@
 # CDTMatlabWorkshop
 
-MATLAB material for the CDT Software Carpentry workshop, University of Leeds (June 2016)
+Some of the material for the CDT Software Carpentry workshop, University of Leeds (June 2016)
 
 ## Attributions
 Day 1 material is derived from work that is Copyright © [Software Carpentry](http://software-carpentry.org/)
