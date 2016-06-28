@@ -4,7 +4,7 @@ myImage = imread(imgName);
 nbPixels = [size(myImage,1),size(myImage,2)];
 
 darkArea = zeros(nbPixels);
-threshold = 1;
+threshold = 15;
 for i = 1:nbPixels(1)
     for j = 1:nbPixels(2)
         r = myImage(i,j,1);

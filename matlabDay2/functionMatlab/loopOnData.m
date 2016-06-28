@@ -1,7 +1,7 @@
 close all
 clc
 
-files = dir('..\dataFiles_day2\*.raw');
+files = dir('..\..\dataFiles_day2\*.raw');
 color = jet(length(files));
 
 extBreak = zeros(length(files),1);

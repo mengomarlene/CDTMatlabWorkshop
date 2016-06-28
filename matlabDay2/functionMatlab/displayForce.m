@@ -1,5 +1,5 @@
 for idx = 1:6
-    fileName = sprintf('staticInstron_%d.raw',idx);
+    fileName = sprintf('..\..\dataFiles_day2\staticInstron_%d.raw',idx);
     [displ,force] = importfile(fileName);
     plot(displ,force)
     hold on
